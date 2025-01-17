@@ -1,4 +1,5 @@
 import About from "./components/about";
+import Contact from "./components/contact";
 import Features from "./components/features";
 import Hero from "./components/hero";
 import NavBar from "./components/navbar";
@@ -12,6 +13,7 @@ const App = () => {
       <About />
       <Features />
       <FloatingImage />
+      <Contact />
     </main>
   );
 };
